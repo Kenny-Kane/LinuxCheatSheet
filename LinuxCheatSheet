@@ -839,4 +839,7 @@ fc -R ~/.zsh_history
 
 rm ~/.zsh_history_bad
 
+then run:
+zsh_history_fix
+
 ======================================================================
