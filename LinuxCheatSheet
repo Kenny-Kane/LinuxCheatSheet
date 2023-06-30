@@ -845,3 +845,12 @@ How to install Alfa Adapter
 https://store.rokland.com/blogs/news/how-to-install-awus036ach-and-awus1900-on-kali-linux-2020-1-w-monitor-mode
 sudo apt install dkms
 sudo apt install realtek-rtl88xxau-dkms
+
+----------------------------------------------------------------------------------------
+
+cli - add to /etc/hosts/
+
+sudo echo 10.10.11.194 soccer.htb >> /etc/hosts
+
+----------------------------------------------------------------------------------
+
