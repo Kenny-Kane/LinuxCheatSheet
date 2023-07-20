@@ -869,4 +869,24 @@ cli - add to /etc/hosts/
 sudo echo 10.10.11.194 soccer.htb >> /etc/hosts
 
 ----------------------------------------------------------------------------------
+Aircrack-ng
 
+Upper part:
+
+BSSID	The MAC address of the AP
+RXQ	Quality of the signal, when locked on a channel
+PWR	Signal strength. Some drivers don't report it
+Beacons	Number of beacon frames received. If you don't have a signal strength you can estimate it by the number of beacons: the more beacons, the better the signal quality
+Data	Number of data frames received
+CH	Channel the AP is operating on
+MB	Speed or AP Mode. 11 is pure 802.11b, 54 pure 802.11g. Values between are a mixture
+ENC	Encryption: OPN: no encryption, WEP: WEP encryption, WPA: WPA or WPA2 encryption, WEP?: WEP or WPA (don't know yet)
+ESSID	The network name. Sometimes hidden
+
+Lower part:
+
+BSSID	The MAC of the AP this client is associated to
+STATION	The MAC of the client itself
+PWR	Signal strength. Some drivers don't report it
+Packets	Number of data frames received
+Probes	Network names (ESSIDs) this client has probed
