@@ -843,8 +843,24 @@ zsh_history_fix
 How to install Alfa Adapter
 
 https://store.rokland.com/blogs/news/how-to-install-awus036ach-and-awus1900-on-kali-linux-2020-1-w-monitor-mode
-sudo apt install dkms
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo reboot now
+sudo apt update
 sudo apt install realtek-rtl88xxau-dkms
+sudo apt install dkms
+git clone https://github.com/aircrack-ng/rtl8812au
+cd rtl8812au/
+make
+sudo make install
+lsusb
+iwconfig
+
+https://mirror2.openwrt.org/sources/compat-wireless-2010-06-28.tar.bz2
+tar -xjvf
+make unload
+make load
 
 ----------------------------------------------------------------------------------------
 
